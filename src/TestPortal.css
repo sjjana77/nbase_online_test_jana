@@ -1,0 +1,46 @@
+/* TestPortal.css */
+.current-question {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+
+  /* TestPortal.css */
+.reviewed-question   {
+    background-color: orange;
+    color: #fff;
+    border-color: orange;
+  }
+  
+  /* TestPortal.css */
+.question-numbers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-number {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .question-number.unanswered {
+    background-color: #f8d7da;
+  }
+  
+  .question-number.answered {
+    background-color: #67d481;
+  }
+  
+  .question-number.review {
+    background-color: #ffc107;
+  }
+  
+  .question-number.current {
+    background-color: #007bff;
+    color: #fff;
+  }
+  

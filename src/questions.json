@@ -1,0 +1,38 @@
+[
+    {
+      "text": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "text": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Venus", "Mercury"],
+      "correctAnswer": "Mars"
+    },
+    {
+      "text": "What is the largest mammal?",
+      "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+      "correctAnswer": "Blue Whale"
+    },
+    {
+      "text": "Who wrote 'Romeo and Juliet'?",
+      "options": ["Charles Dickens", "Jane Austen", "William Shakespeare", "Mark Twain"],
+      "correctAnswer": "William Shakespeare"
+    },
+    {
+      "text": "What is the capital of Australia?",
+      "options": ["Sydney", "Canberra", "Melbourne", "Brisbane"],
+      "correctAnswer": "Canberra"
+    },
+    {
+      "text": "Which country is the largest by land area?",
+      "options": ["Russia", "Canada", "China", "United States"],
+      "correctAnswer": "Russia"
+    },
+    {
+      "text": "What is the tallest mountain in the world?",
+      "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"],
+      "correctAnswer": "Mount Everest"
+    }
+  ]
+  
