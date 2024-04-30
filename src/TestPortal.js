@@ -37,6 +37,17 @@ const TestPortal = () => {
         clearInterval(timer);
     };
 
+    const renderScore = () => {
+        if (submitted) {
+            return (
+                <div>
+                    <h3>Score: {calculateScore()} / {questionsData.length}</h3>
+                </div>
+            );
+        }
+        return null;
+    };
+
     const calculateScore = () => {
         let score = 0;
         answers.forEach((answer, index) => {
@@ -89,6 +100,7 @@ const TestPortal = () => {
     return (
         <div className='container' >
             <h3>Online Test Portal</h3>
+            {renderScore()}
             <div className='row'>
                 <div className='col-md-4'></div>
                 <div className='col-md-4'></div>
